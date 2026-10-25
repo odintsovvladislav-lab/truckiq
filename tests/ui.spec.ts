@@ -85,7 +85,7 @@ test('original design is preserved',async({page})=>{
  await expect(page.locator('.brand-preview')).toHaveCount(0);
 });
 test('gallery offers five concepts without selecting a final design',async({page})=>{
- await page.goto('/');
+ await page.goto('/?concept=gallery');
  await expect(page.locator('.concept-card')).toHaveCount(5);
  await expect(page.locator('.selection-note')).toContainText('пока не выбраны');
  await page.locator('.concept-preview img').evaluateAll(imgs=>Promise.all(imgs.map(i=>(i as HTMLImageElement).decode())));
