@@ -1,0 +1,17 @@
+/* Optical normalization via CSS only; source image pixels and paths are unchanged. */
+.logo-image img[src="/logos/scania.png"]{transform:scale(0.853)}
+.logo-image img[src="/logos/volvo.png"]{transform:scale(0.811)}
+.logo-image img[src="/logos/man-current.svg"]{transform:scale(1.304)}
+.logo-image img[src="/logos/mercedes-benz.png"]{transform:scale(0.909)}
+.logo-image img[src="/logos/daf.png"]{transform:scale(0.955)}
+.logo-image img[src="/logos/iveco-current.svg"]{transform:scale(1.600)}
+.logo-image img[src="/logos/shacman.png"]{transform:scale(0.833)}
+.logo-image img[src="/logos/faw.png"]{transform:scale(1.132)}
+.logo-image img[src="/logos/dongfeng.png"]{transform:scale(1.143)}
+.logo-image img[src="/logos/foton.png"]{transform:scale(1.032)}
+.logo-image img[src="/logos/jac.png"]{transform:scale(1.422)}
+.logo-image img[src="/logos/hongyan.png"]{transform:scale(0.833)}
+.logo-image img[src="/logos/dayun.png"]{transform:scale(0.833)}
+.logo-image img[src="/logos/isuzu.png"]{transform:scale(1.164)}
+.logo-image img[src="/logos/hino.png"]{transform:scale(1.000)}
+.logo-image img[src="/logos/hyundai-current.svg"]{transform:scale(1.429)}
