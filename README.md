@@ -66,7 +66,7 @@ Playwright использует `/usr/bin/chromium`, если он устано�
 
 ## Ограничения и статус среды
 
-Рабочий checkout `/workspace/truckiq` изначально пустой, без коммитов, README, AGENTS.md и .agents/skills; фактическая ветка `work`, не `main`. Подготовлена локальная ветка `design/truckiq-five-concepts`. Push/PR/deploy не выполнялись, домены не подключались; truckmsk.ru не изменялся. Подключённый origin: `odintsovvladislav-lab/truckiq`. GitHub указывает default branch `main`, но удалённых веток и базового коммита нет: для первого PR требуется отдельная инициализация main. Репозиторий уже публичный; его видимость не изменялась.
+Рабочий checkout `/workspace/truckiq` изначально пустой, без коммитов, README, AGENTS.md и .agents/skills; фактическая ветка `work`, не `main`. Подключённый origin: `odintsovvladislav-lab/truckiq`. По последнему явному разрешению пользователя репозиторий оставлен публичным, создана минимальная `main` с пустым начальным коммитом; проект подготовлен в отдельной ветке `design/truckiq-five-concepts` для чернового PR. Исходный коммит `038d8c3fcf767915d89867138153eeb8e711dc23` сохранён в истории ветки. Видимость и доступ участников не менялись. Merge/deploy и подключение доменов не выполнялись; truckmsk.ru не изменялся.
 
 Ранее Library reference `libfile_5d48b450fd708191bd95e9efcd8f05c8` и архив `libfile_f2a1457139dc81919d4779a8ded95b61` не удалось materialize (`download failed`, включая один ограниченный повтор). Референс не просмотрен, архив не использован. Источник шрифтов — npm с лицензиями.
 
